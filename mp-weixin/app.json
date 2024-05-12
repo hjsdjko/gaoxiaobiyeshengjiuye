@@ -1,0 +1,105 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/gongsi/list",
+    "pages/gongsi/list2",
+    "pages/gongsi/add-or-update",
+    "pages/gongsi/detail",
+    "pages/gongzuopingjia/list",
+    "pages/gongzuopingjia/list2",
+    "pages/gongzuopingjia/add-or-update",
+    "pages/gongzuopingjia/detail",
+    "pages/jinsheng/list",
+    "pages/jinsheng/list2",
+    "pages/jinsheng/add-or-update",
+    "pages/jinsheng/detail",
+    "pages/mianshishenqing/list",
+    "pages/mianshishenqing/list2",
+    "pages/mianshishenqing/add-or-update",
+    "pages/mianshishenqing/detail",
+    "pages/news/list",
+    "pages/news/list2",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/list2",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/zhaopin/list",
+    "pages/zhaopin/list2",
+    "pages/zhaopin/add-or-update",
+    "pages/zhaopin/detail",
+    "pages/zhaopinCollection/list",
+    "pages/zhaopinCollection/list2",
+    "pages/zhaopinCollection/add-or-update",
+    "pages/zhaopinCollection/detail",
+    "pages/zhaopinLiuyan/list",
+    "pages/zhaopinLiuyan/list2",
+    "pages/zhaopinLiuyan/add-or-update",
+    "pages/zhaopinLiuyan/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "高校毕业生就业信息",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#54C0CC",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/gongsi/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "公司"
+      },
+      {
+        "pagePath": "pages/zhaopin/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "职位招聘"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}
